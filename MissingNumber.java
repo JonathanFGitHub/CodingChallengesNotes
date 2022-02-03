@@ -61,9 +61,9 @@ public class MissingNumber {
 
         return 1;
     }
+    
 
     // BEST:
-
     public int missingNumberWithEquation(int[] nums) {
         /* If the length of the array is 5, then we are expecting to find an array 0,1,2,3,4,5.
         * The below equation gives us the sum of a list of 0-5 ie. 0+1+2+3+4+5 = 15 == (5 (5+1))/2 = 15 */
@@ -76,7 +76,7 @@ public class MissingNumber {
         return sum;
     }
 
-    //Jons thoughout method
+    //Jons thought out method
     public int missingNumberWithEquationJon(int[] nums) {
        int n = nums.length; //Get array length 
        int sumOfInput = 0;
